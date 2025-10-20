@@ -12,6 +12,6 @@ func evenFirst(arr []int) []int {
 }
 
 // func main() {
-// 	sorted_array := []int{1, 2, 3, 6, 7, 8, 10, 11, 12, 16, 22}
-// 	fmt.Println(evenFirst(sorted_array))
+// 	sortedArray := []int{1, 2, 3, 6, 7, 8, 10, 11, 12, 16, 22}
+// 	fmt.Println(evenFirst(sortedArray))
 // }

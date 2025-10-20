@@ -29,6 +29,6 @@ func partialRotationOfArray(nums []int, k int) ([]int, error) {
 }
 
 func main() {
-	sorted_array := []int{}
-	fmt.Println(partialRotationOfArray(sorted_array, 4))
+	sortedArray := []int{}
+	fmt.Println(partialRotationOfArray(sortedArray, 4))
 }

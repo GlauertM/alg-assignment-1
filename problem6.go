@@ -21,6 +21,6 @@ func sortColours(arr []byte) []byte {
 }
 
 // func main() {
-// 	binary_array := []byte{2, 2, 1, 0, 2, 0, 1, 0, 1, 2, 1, 2, 0, 1, 1}
-// 	fmt.Println(sortColours(binary_array))
+// 	binaryArray := []byte{2, 2, 1, 0, 2, 0, 1, 0, 1, 2, 1, 2, 0, 1, 1}
+// 	fmt.Println(sortColours(binaryArray))
 // }

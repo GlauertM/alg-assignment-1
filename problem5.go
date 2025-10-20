@@ -18,6 +18,6 @@ func sortBinaryArray(arr []byte) []byte {
 }
 
 // func main() {
-// 	binary_array := []byte{1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1}
-// 	fmt.Println(sortBinaryArray(binary_array))
+// 	binaryArray := []byte{1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1}
+// 	fmt.Println(sortBinaryArray(binaryArray))
 // }

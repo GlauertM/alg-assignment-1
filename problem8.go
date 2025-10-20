@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func zeroLast(arr []int) []int {
 	pntr_l := 0
 	pntr_r := len(arr) - 1
@@ -23,7 +21,7 @@ func zeroLast(arr []int) []int {
 	return arr
 }
 
-func main() {
-	sortedArray := []int{0, 0}
-	fmt.Println(zeroLast(sortedArray))
-}
+// func main() {
+// 	sortedArray := []int{0, 0}
+// 	fmt.Println(zeroLast(sortedArray))
+// }
