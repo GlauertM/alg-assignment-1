@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // import "fmt"
 // O(n)
 func rotateArray(nums []int, left, right int) []int {
@@ -12,16 +14,21 @@ func rotateArray(nums []int, left, right int) []int {
 }
 
 // O(3 n) = O(n)
-func partialRotation_of_anArray(nums []int, k int) []int {
+func partialRotationOfArray(nums []int, k int) ([]int, error) {
 	n := len(nums)
+	// Checking if the array 'nums' is empty.
+	if n > 0 {
+		rotateArray(nums, 0, n-1)
+		rotateArray(nums, 0, k%n-1)
+		rotateArray(nums, k%n, n-1)
+		return nums, fmt.Errorf("")
+	} else {
+		return nil, fmt.Errorf("Array is empty.")
+	}
 
-	rotateArray(nums, 0, n-1)
-	rotateArray(nums, 0, k%n-1)
-	rotateArray(nums, k%n, n-1)
-	return nums
 }
 
-// func main() {
-// 	sorted_array := []int{1, 2, 3, 6, 7, 8, 10, 11, 12, 16, 22}
-// 	fmt.Println(partialRotation_of_anArray(sorted_array, 4))
-// }
+func main() {
+	sorted_array := []int{}
+	fmt.Println(partialRotationOfArray(sorted_array, 4))
+}
