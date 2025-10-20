@@ -24,6 +24,6 @@ func zeroLast(arr []int) []int {
 }
 
 func main() {
-	sorted_array := []int{0, 0}
-	fmt.Println(zeroLast(sorted_array))
+	sortedArray := []int{0, 0}
+	fmt.Println(zeroLast(sortedArray))
 }
